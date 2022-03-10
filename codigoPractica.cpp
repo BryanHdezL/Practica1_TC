@@ -51,16 +51,16 @@ void menu(string cadena1,string cadena2){
 		cout << "\t|\t MENU PRINCIPAL \t|";
 		cout << "\n\t+-------------------------------+";
 		cout << "\n\t|     1) Concatenacion.  \t|";
-        cout << "\n\t|     2) Potencia.  \t\t|";
-        cout << "\n\t|     3) Inverso.  \t\t|";
+        	cout << "\n\t|     2) Potencia.  \t\t|";
+        	cout << "\n\t|     3) Inverso.  \t\t|";
 		cout << "\n\t|     4) Prefijo / Sufijos. \t|";
 		cout << "\n\t|     5) Subcadena.\t\t|";
 		cout << "\n\t|     6) Salir del programa. \t|";
 		cout << "\n\t+-------------------------------+\n";
 
 		cout << "\n Digite la opcion que desea realizar: "; 
-        cin >> opcion;	
-        opciones(opcion,cadena1,cadena2);   //Invoxamos a la funcion que realizara la operacion indicada por el usuario.
+        	cin >> opcion;	
+        	opciones(opcion,cadena1,cadena2);   //Invoxamos a la funcion que realizara la operacion indicada por el usuario.
 }
 
 //Funcion de las opciones.
